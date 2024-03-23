@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tranquil Travels</title>
+
+</head>
+<body>
+    
+    <nav class="fixed-navigation">
+        <img class="logo" src="../Assets/logo.svg"/>
+        <ul class="nav-links">
+            <li><a class="nav-link" href="#">Home</a></li>
+            <li><a class="nav-link" href="#"><Strong>Find offers</Strong></a></li>
+            <li><a class="nav-link" href="#browse">Add new offers</a></li>
+            <li><a class="nav-link" href="#rent">My offfers</a></li>
+            <li><a class="nav-link" href="#">Favourites</a></li>
+            <button class="button primary">Log out</button>
+        </ul>
+        <button class="button primary hidden">Menu</button>
+    </nav>
+    <dialog open id="dialogBox">
+        <div class="headerSection">
+            <p class="dialogArticleText">Edit</p>
+            <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+        </div>
+       
+        <p>You're editing the [hotel name] hotel</p>
+        <div class="capsule">
+            <p class="p2">Hotel name</p>
+            <div class="input-container">
+                <input type="text" placeholder="Serene Retreat">
+            </div>
+        </div>
+        <div class="capsule">
+            <p class="p2">Description</p>
+            <div class="area-container">
+                <textarea rows = "9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ligula nec quam fermentum luctus. Vivamus eu nisi vitae velit gravida viverra. Sed bibendum lacinia libero, et tincidunt sem varius eu. Morbi nec bibendum nunc, eu convallis justo. Sed ut tristique arcu. Integer auctor sagittis nisi, at ultrices libero convallis id.Pellentesque sed sodales nibh, non eleifend arcu. In ac tellus nibh. Aenean at erat aliquet, aliquam vel arcu quis, semper congue ligula."></textarea>
+            </div>
+        </div>
+        <div class="capsuleForTriple">
+            <div class="TrippleContainer">
+                <p>Location</p>
+                <div class="input2">
+                   <input placeholder="Madrid"> 
+                </div>
+            </div>
+            <div class="TrippleContainer">
+                <p class="p">Price</p>
+                <div class="input2">
+                   <input Type="number" placeholder="70"> 
+                </div>
+            </div>
+            <div class="TrippleContainer">
+                <p class="p">Local category</p>
+                <div class="input2">
+                   <input placeholder="★★★★☆"> 
+                </div>
+            </div>
+
+        </div>
+    </dialog>
+
+    
+    
+    <section class="hero-section">
+        <article class="welcome-section">
+            <p class="title-large">Serene Retreat</p>
+        </article>
+        <section class="main-section">
+            <div>
+                <img class="img1" src="../Assets/cards2.jpg">
+            </div>
+            <div class="pos text-section fit">
+                <div>
+                    <p class="text-middle"><strong>Location: </strong> Mardid </p>
+                    <p class="text-middle"> <strong>Local category: </strong>★★★★☆</p>
+                    <p class="text-middle"> <strong>Price: </strong> 100€/room/night</p>
+                    <p class="text-middle"><strong>Description:</strong></p>
+                </div>
+                <div>
+                    <p class="text-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ligula nec quam fermentum luctus. 
+                        Vivamus eu nisi vitae velit gravida viverra. Sed bibendum lacinia libero, et tincidunt sem varius eu. 
+                        Morbi nec bibendum nunc, eu convallis justo. Sed ut tristique arcu. Integer auctor sagittis nisi, at ultrices libero convallis id.
+                        Pellentesque sed sodales nibh, non eleifend arcu. In ac tellus nibh. Aenean at erat aliquet, aliquam vel arcu quis, semper congue ligula.
+                    </p>
+                </div>
+                <div>
+                    <div class="button-grid">
+                        <button class="button primary sixteen" style="flex-grow: 1; flex-basis: 0;">Edit <i class="fa fa-pencil"></i> </button>                   
+                        <button class="button primary" style="flex-grow: 1; flex-basis: 0;">Remove <i class="fa fa-trash-o"></i></button>
+                    </div>
+                </div>
+                <div class="grid-images">
+                    <img class="img2" src="../Assets/cards2.jpg">
+                    <img class="img2" src="../Assets/cards2.jpg">
+                </div>
+                    
+            
+            </div>
+            
+            
+        </section> 
+
+    </section>
+    
+</body>
+</html>
+
+
+
+
